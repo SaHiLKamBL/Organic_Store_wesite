@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocerie</title>
+  <link href="/css/output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="overflow-x-hidden">
+  <div id="nav" class="w-[100vw] h-[10vh] bg-slate-100 flex justify-between items-center">
+    <div id="left" class="w-[30vw]  flex justify-evenly items-center">
+      <img id="title" class="w-[10vw] h-[10vh] " src="Assets/organic-store-logo5.svg" alt="icon">
+      <p class="hover:text-oliveGreen cursor-pointer"><a href="everything.html">Everything</a></p>
+      <p class="hover:text-oliveGreen cursor-pointer"><a href="groceries.html">Groceries</a></p>
+      <p class="hover:text-oliveGreen cursor-pointer"><a href="juice.html">Juice</a></p>
+    </div>
+    <div id="right" class="w-[30vw] h-[100%] flex justify-evenly items-center">
+      <p class="hover:text-oliveGreen cursor-pointer about"><a href="about.html">About</a></p>
+      <p class="hover:text-oliveGreen cursor-pointer contact"><a href="contact.html">Contact</a></p>
+      <p class="text-oliveGreen cursor-pointer font-semibold">$0.00</p>
+      <img class="h-[5vh]" src="Assets/icons8-basket-50.png" alt="icon2">
+      <a href="profile.html"><img class="h-[5vh]" src="Assets/profile-user.png" alt="icon3"></a>
+    </div>
+
+  </div>
+  <!-- <body> -->
+  <!-- div1 -->
+  <div class="w-[100vw] h-[260vh] bg-slate-200 flex justify-start items-start">
+    <div class="w-[30vw] h-[260vh] bg-white flex flex-col items-center">
+
+      <div class="w-[30vw] h-[20vh] flex justify-center items-center ">
+        <input class="w-[15vw] h-[5vh] mr-2 border-2 border-solid border-oliveGreen" type="text"
+          placeholder="  Search products...">
+        <div class="w-[2.5vw] h-[5vh] bg-oliveGreen flex justify-center items-center rounded-[4px]">
+          <img src="Assets/icons8-forward-26.png" alt="iconright">
+        </div>
+      </div>
+
+      <div class="w-[30vw] h-[20vh] pl-16">
+        <h1 class="text-5xl font-medium">Filter by price</h1>
+        <br>
+
+        <input type="range" class="accent-oliveGreen w-[20vw] ">
+        <br>
+        <div class="w-[20vw] h-[10vh] flex justify-between items-center">
+          <div class="w-[3vw] h-[5vh] flex justify-center items-center border-2 border-solid border-slate-400 ">
+            <p class="text-xl font-semibold text-slate-300">$10</p>
+          </div>
+
+          <div class="w-[4vw] h-[5vh] flex justify-center items-center border-2 border-solid border-slate-400 ">
+            <p class="text-xl font-semibold text-slate-300">$100</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="w-[30vw] h-[200vh] flex flex-col items-center">
+        <div class="w-[30vw] h-[60vh]  mb-10 flex flex-col justify-center items-center">
+          <img id="image1" class="w-[300px] h-[300px]" src="Assets/im4.jpg" alt="img5">      <!-- img1 -->
+          <br>
+          <p class="text-xl font-medium text-oliveGreen">Natural Extracted Edible Oil</p>
+          <p class="text-xl font-normal text-slate-400">$25.00</p>
+        </div>
+
+        <div class="w-[30vw] h-[60vh]  mb-10 flex flex-col justify-center items-center">
+          <img id="image2" class="w-[300px] h-[300px]" src="Assets/im1.jpg" alt="img5">      <!-- img2-->
+          <br>
+          <p class="text-xl font-medium text-oliveGreen">Assorted Coffee</p>
+          <p class="text-xl font-normal text-slate-400">$35.00</p>
+        </div>
+
+
+        <div class="w-[30vw] h-[60vh]  mb-10 flex flex-col justify-center items-center">
+          <img id="image3" class="w-[300px] h-[300px]" src="Assets/im2.jpg" alt="img5">    <!-- img3-->
+          <br>
+          <p class="text-xl font-medium text-oliveGreen">Hand Sanitizer</p>
+          <p class="text-xl font-normal text-slate-400">$50.00</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="w-[69vw] h-[260vh]  pt-20 pl-5 bg-white border-l-2 border-slate-500">
+      <p class="text-xl font-normal text-slate-500">Home / Groceries</p>
+      <br>
+      <h1 class="text-6xl font-semibold text-oliveGreen">Groceries</h1>
+      <br>
+      <br>
+      <div class="">
+        <h2 class="text-xl font-medium text-slate-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          dignissim, velit et luctus interdum, est quam scelerisque tellus, eget luctus mi diam vitae erat. Praesent
+          porttitor lacus vitae dictum posuere. Suspendisse elementum metus ac dolor tincidunt, eu imperdiet nisi
+          dictum.</h2>
+      </div>
+      <br>
+      <div class="w-[60vw] h-[10vh] flex justify-between items-center">
+        <h2 class="text-xl font-normal text-slate-600">Showing all 9 results</h2>
+        <div class="w-[15vw] h-[10vh] flex justify-evenly items-center">
+          <h2 class="text-xl font-normal text-slate-600">Default sorting</h2>
+          <img class="w-[2vw] h-[3vh]" src="Assets/icons8-expand-arrow-50.png" alt="arrow">
+        </div>
+
+      </div>
+
+      <div class="w-[69vw] h-[70vh] flex justify-evenly items-center ">
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5 ">
+          <img id="image22" src="Assets/im1.jpg" alt="img2">                        <!-- img22 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Assorted Coffee</p>
+          <p class="text-xl font-bold ">$35.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+          <img id="image4" src="Assets/cashew-butter-500-400x400.jpg" alt="img2">      <!-- img4 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Cashew Butter</p>
+          <p class="text-xl font-bold ">$65.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+          <img id="image5" src="Assets/diabetic-cookies-400x400.jpg" alt="img2">         <!-- img5 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Diabetic Cookies</p>
+          <p class="text-xl font-bold ">$45.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+      </div>
+
+
+      <div class="w-[69vw] h-[70vh] flex justify-evenly items-center ">
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+          <img id="image6" src="Assets/eggs-400x400.jpg" alt="img2">                   <!-- img6 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Fram Fresh Eggs</p>
+          <p class="text-xl font-bold ">$85.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+          <img id="image7" src="Assets/orage-juice-kariz-400x400.jpg" alt="img2">          <!-- img7 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Fresh Orange Juice</p>
+          <p class="text-xl font-bold ">$95.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+          <img id="image8" src="Assets/organic-honey-400x400.jpg" alt="img2">                 <!-- img8 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Fresh Organic Honey</p>
+          <p class="text-xl font-bold ">$65.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+      </div>
+
+      <div class="w-[69vw] h-[70vh] flex justify-evenly items-center ">
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+          <img id="image11" src="Assets/im4.jpg" alt="img2">                                   <!-- img11 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Natural Extracted Edible Oil</p>
+          <p class="text-xl font-bold ">$85.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+          <img id="image9" src="Assets/pulses-400x400.jpg" alt="img2">                      <!-- img9 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Pulses From Organic Fram</p>
+          <p class="text-xl font-bold ">$25.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+
+        <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+          <img id="image10" src="Assets/wheat-400x400.jpg" alt="img2">                         <!-- img10 -->
+          <p class="text-xs font-normal text-slate-600">Groceries</p>
+          <p class="text-xl font-semibold text-black">Wheat From Organic Farm</p>
+          <p class="text-xl font-bold ">$95.00</p>
+          <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <!--   left -->
+  </div>
+
+  <!-- div2 -->
+  <div class="w-[100vw] h-[120vh] bg-black mt-10 flex justify-evenly items-center">
+    <div class="w-[40vw] h-[100vh]">
+      <img class="w-[15vw] h-[15vh] " src="Assets/organic-store-white-logo.png" alt="icon">
+      <br>
+      <br>
+      <br>
+      <h1 class="text-2xl font-extrabold text-slate-300">Maecenas mi justo, interdum at consectetur vel,</h>
+        <h1 class="text-2xl font-extrabold text-slate-300">tristique et arcu. Ut quis eros blandit, ultrices diam,</h>
+          <h1 class="text-2xl font-extrabold text-slate-300">elementum ex. Suspendisse quis faucibus urna.</h>
+            <h1 class="text-2xl font-extrabold text-slate-300">Suspendisse pellentesque.</h>
+    </div>
+
+    <div class="w-[10vw] h-[100vh] ">
+      <h2 class="text-[26px] font-bold text-white">Quick Links</h2>
+      <br>
+
+      <h1 class="text-2xl font-medium text-slate-300">About</h>
+        <h1 class="text-2xl font-medium text-slate-300">Cart</h>
+          <h1 class="text-2xl font-medium text-slate-300">Checkout</h>
+            <h1 class="text-2xl font-medium text-slate-300">Contact</h>
+              <h1 class="text-2xl font-medium text-slate-300">Home</h>
+                <h1 class="text-2xl font-medium text-slate-300">Myaccount</h>
+                  <h1 class="text-2xl font-medium text-slate-300">Shop</h>
+                    <br>
+                    <br>
+                    <h2 class="text-[26px] font-bold text-white">Site Links</h2>
+                    <br>
+
+                    <h1 class="text-2xl font-medium text-slate-300">Privacy Policy</h>
+                      <h1 class="text-2xl font-medium text-slate-300">Shipping Details</h>
+                        <h1 class="text-2xl font-medium text-slate-300">Offers Coupons</h>
+                          <h1 class="text-2xl font-medium text-slate-300">Terms & Conditions</h>
+
+
+    </div>
+
+    <div class="w-[20vw] h-[100vh] ">
+      <h2 class="text-[26px] font-bold text-white">Download Our Mobile App</h2>
+      <br>
+
+      <h1 class="text-2xl font-medium text-slate-300">Lorem ipsum dolor sit amet,</h>
+        <h1 class="text-2xl font-medium text-slate-300">consectetur adipiscing elit. Donec</h>
+          <h1 class="text-2xl font-medium text-slate-300">aliquam gravida sollicitudin. Praesent</h>
+            <h1 class="text-2xl font-medium text-slate-300">porta enim mi, non tincidunt libero</h>
+              <h1 class="text-2xl font-medium text-slate-300">interdum sit amet.</h>
+                <br>
+                <br>
+                <h2 class="text-[26px] font-bold text-white">Quick Links</h2>
+                <br>
+                <h1 class="text-2xl font-medium text-slate-300">Know Us More</h1>
+                  <h1 class="text-2xl font-medium text-slate-300">Visit Store</h1>
+                    <h1 class="text-2xl font-medium text-slate-300">Let’s Connect</h1>
+                      <h1 class="text-2xl font-medium text-slate-300">Locate Stores</h1>
+
+                        <div class="flex justify-evenly items-center w-[20vw] mt-10 ">
+                          <img class="w-[128.9px] h-[37.58]" src="Assets/play-store.png" alt="img6">
+                          <img class="w-[128.9px] h-[37.58]" src="Assets/app-store.png" alt="img7">
+                        </div>
+    </div>
+  </div>
+  
+  <div class="w-[100vw] h-[15vh] flex justify-center items-center bg-black mt-[1px]">
+    <h1 class="text-2xl font-medium text-slate-300">Copyright © 2024 | Organic Store</h1>
+  </div>
+
+
+  <script src="whole.js"></script>
+  <script src="groceries.js"></script>
+  <script src="item.js"></script>
+</body>
+
+</html>

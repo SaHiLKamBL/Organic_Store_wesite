@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Store Login</title>
+    <link href="/css/output.css" rel="stylesheet">
+</head>
+<body class="overflow-x-hidden">
+    <div class="w-[100vw] h-[110vh] flex flex-col justify-center items-center bg-cover bg-left" style="background-image: url(Assets/login-background.jpg);">
+        <img class="w-[20vw] h-[20vh]" src="Assets/organic-store-logo5.svg" alt="img1">
+        <br>
+        <div class="w-[60vw] h-[80vh] bg-white flex justify-center items-center" style="box-shadow: 0 0 10px black;">
+            <div class="w-[20vw] h-[70vh] bg-contain " style="background-image: url(Assets/login-ogimage3.jpg); background-repeat: no-repeat;" >
+            </div>
+                <div class="w-[35vw] h-[70vh]">
+                     <input id="username" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-16 mt-20" type="text" placeholder="Enter Name...">
+                     <input id="password" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-16 mt-10" type="password" placeholder="Enter Password...">
+                     <button id="loginbtn" class="w-[20vw] h-[8vh] flex justify-center items-center text-white bg-oliveGreen rounded-[10px] ml-28 mt-10 hover:bg-normgreen text-xl font-semibold" type="submit">Login</button>
+                     <br>
+                     <div class="w-[35vw] h-[5vh] flex justify-center items-center">
+                        <span class="w-[15vw] h-[5vh] flex items-center text-oliveGreen"><input class="w-[2vw] h-[2vh]" type="checkbox" name="Remember Me" id="inp"> Remember Me</span>
+                         <h2 class="text-oliveGreen font-medium ">Forgot Password ?</h2>
+                     </div>
+                     <button id="loginregbtn" class="w-[25vw] h-[8vh] flex justify-center items-center text-white bg-oliveGreen rounded-[10px] ml-20 mt-10 hover:bg-normgreen text-xl font-semibold" type="submit">Register</button>
+                </div>
+        </div>
+
+    </div>
+    <script src="login.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item</title>
+    <link href="/css/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="overflow-x-hidden">
+  <div id="nav" class="w-[100vw] h-[10vh] bg-slate-100 flex justify-between items-center">
+    <div id="left" class="w-[30vw]  flex justify-evenly items-center">
+      <img id="title" class="w-[10vw] h-[10vh] " src="Assets/organic-store-logo5.svg" alt="icon">
+      <p class="hover:text-oliveGreen cursor-pointer"><a href="everything.html">Everything</a></p>
+      <p class="hover:text-oliveGreen cursor-pointer"><a href="groceries.html">Groceries</a></p>
+      <p class="hover:text-oliveGreen cursor-pointer"><a href="juice.html">Juice</a></p>
+    </div>
+    <div id="right" class="w-[30vw] h-[100%] flex justify-evenly items-center">
+      <p class="hover:text-oliveGreen cursor-pointer about"><a href="about.html">About</a></p>
+      <p class="hover:text-oliveGreen cursor-pointer contact"><a href="contact.html">Contact</a></p>
+      <p class="text-oliveGreen cursor-pointer font-semibold">$0.00</p>
+      <img class="h-[5vh]" src="Assets/icons8-basket-50.png" alt="icon2">
+      <a href="profile.html"><img class="h-[5vh]" src="Assets/profile-user.png" alt="icon3"></a>
+    </div>
+
+  </div>
+      <!-- <body> -->
+      <!-- div1 -->
+       <div id="content" class="w-[100vw] h-[90vh] flex justify-evenly items-center">
+        <div id="itemimage" class="overflow-hidden w-[40vw] h-[80vh]">
+            <img id="imagee"
+              src="Assets/im1.jpg"
+              alt="Hover to zoom"
+              class="w-full h-full object-cover "
+            />
+          </div>
+          
+          <div class="w-[40vw] h-[90vh] mt-16">
+            <p id="itemname" class="text-xl font-medium text-oliveGreen">Asserted Coffee</p>
+                 <div class="h-[8vh] flex items-center mb-3">
+                     <h2 id="itemprice" class="text-2xl font-semibold">$35.00</h2>
+                     <p class="text-xl font-normal"> + Free Shipping</p>
+                 </div>
+                    
+                 <h2 class="w-[40vw] h-[8vh] text-xl font-normal">Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.</h2>
+                    <br>
+                 <div class="w-[15vw] h-[10vh] flex justify-evenly items-center mt-3">
+                         <div id="sub" class="w-[3vw] h-[5vh] bg-oliveGreen flex justify-center items-center rounded-[4px]">
+                            <img src="Assets/icons8-subtract-30.png" alt="">
+                         </div>
+                              <input id="itemnumber" class="w-[3vw] h-[5vh] pl-3 flex justify-center items-center border-2 border-slate-300 rounded-[4px]" value="1" type="number">
+                         <div id="add" class="w-[3vw] h-[5vh] bg-oliveGreen flex justify-center items-center rounded-[4px]">
+                            <img src="Assets/icons8-add-30.png" alt="">
+                         </div>
+                     </div>
+                     <button id="cart" class="w-[20vw] h-[6vh] bg-oliveGreen flex justify-center items-center rounded-[15px] hover:bg-normgreen">
+                        <p class="text-white text-xl font-semibold">ADD TO CART</p>
+                      </button>
+                      <br>
+                      <hr>
+                      <span class="text-xl font-normal">Categories:</span><span class="text-normgreen font-normal text-[18px]">Groceries</span>
+          </div>
+       </div>
+       <hr class="w-[90vw] ml-24">
+       <div class="w-[100vw] h-[100vh] ml-24">
+             <div class="w-[60vw] h-[10vh] flex justify-start items-center">
+                <div class="w-[7vw] h-[5vh] text-black border-2 border-oliveGreen hover:text-oliveGreen hover:border-black font-medium flex justify-center items-center cursor-pointer">
+                     Description
+                </div>
+                <div class="ml-5 w-[7vw] h-[5vh] text-black border-2 border-oliveGreen hover:text-oliveGreen hover:border-black font-medium flex justify-center items-center cursor-pointer">
+                    Reviews
+               </div>
+             </div>    
+             <br>
+           
+             <h2 class="w-[80vw] h-[4vh] text-xl font-medium">Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.</h2>
+        <br>
+        <br>
+        <br>
+        <h1 class="text-5xl font-bold text-black">Related Products</h1>
+        <div id="row1" style="opacity: 1;">
+            <div id="list" class="w-[69vw] h-[70vh] flex justify-evenly items-center ">
+              <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5 ">
+                <img src="Assets/face-wash-400x400.jpg" alt="img2">
+                <p class="text-xs font-normal text-slate-600">Groceries</p>
+                <p class="text-xl font-semibold text-black">Organic Face Srub</p>
+                <p class="text-xl font-bold ">$35.00</p>
+                <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+              </div>
+      
+              <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+                <img src="Assets/pulses-400x400.jpg" alt="img2">
+                <p class="text-xs font-normal text-slate-600">Groceries</p>
+                <p class="text-xl font-semibold text-black">Pulses From Organic Fram</p>
+                <p class="text-xl font-bold ">$25.00</p>
+                <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+              </div>
+         
+      
+              <div class="w-[20vw] h-[70vh]  flex flex-col justify-center items-center mr-5">
+                <img src="Assets/wheat-400x400.jpg" alt="img2">
+                <p class="text-xs font-normal text-slate-600">Groceries</p>
+                <p class="text-xl font-semibold text-black">Wheat From Organic Farm</p>
+                <p class="text-xl font-bold ">$95.00</p>
+                <img class="w-16 h-16" src="Assets/rating2.jpg" alt="icon7">
+              </div>
+            </div>
+          </div>
+       
+            </div>
+
+  <!-- div2 -->
+  <div class="w-[100vw] h-[120vh] bg-black mt-10 flex justify-evenly items-center">
+    <div class="w-[40vw] h-[100vh]">
+      <img class="w-[15vw] h-[15vh] " src="Assets/organic-store-white-logo.png" alt="icon">
+      <br>
+      <br>
+      <br>
+      <h1 class="text-2xl font-extrabold text-slate-300">Maecenas mi justo, interdum at consectetur vel,</h>
+        <h1 class="text-2xl font-extrabold text-slate-300">tristique et arcu. Ut quis eros blandit, ultrices diam,</h>
+          <h1 class="text-2xl font-extrabold text-slate-300">elementum ex. Suspendisse quis faucibus urna.</h>
+            <h1 class="text-2xl font-extrabold text-slate-300">Suspendisse pellentesque.</h>
+    </div>
+
+    <div class="w-[10vw] h-[100vh] ">
+      <h2 class="text-[26px] font-bold text-white">Quick Links</h2>
+      <br>
+
+      <h1 class="text-2xl font-medium text-slate-300">About</h>
+        <h1 class="text-2xl font-medium text-slate-300">Cart</h>
+          <h1 class="text-2xl font-medium text-slate-300">Checkout</h>
+            <h1 class="text-2xl font-medium text-slate-300">Contact</h>
+              <h1 class="text-2xl font-medium text-slate-300">Home</h>
+                <h1 class="text-2xl font-medium text-slate-300">Myaccount</h>
+                  <h1 class="text-2xl font-medium text-slate-300">Shop</h>
+                    <br>
+                    <br>
+                    <h2 class="text-[26px] font-bold text-white">Site Links</h2>
+                    <br>
+
+                    <h1 class="text-2xl font-medium text-slate-300">Privacy Policy</h>
+                      <h1 class="text-2xl font-medium text-slate-300">Shipping Details</h>
+                        <h1 class="text-2xl font-medium text-slate-300">Offers Coupons</h>
+                          <h1 class="text-2xl font-medium text-slate-300">Terms & Conditions</h>
+
+
+    </div>
+
+    <div class="w-[20vw] h-[100vh] ">
+      <h2 class="text-[26px] font-bold text-white">Download Our Mobile App</h2>
+      <br>
+
+      <h1 class="text-2xl font-medium text-slate-300">Lorem ipsum dolor sit amet,</h>
+        <h1 class="text-2xl font-medium text-slate-300">consectetur adipiscing elit. Donec</h>
+          <h1 class="text-2xl font-medium text-slate-300">aliquam gravida sollicitudin. Praesent</h>
+            <h1 class="text-2xl font-medium text-slate-300">porta enim mi, non tincidunt libero</h>
+              <h1 class="text-2xl font-medium text-slate-300">interdum sit amet.</h>
+                <br>
+                <br>
+                <h2 class="text-[26px] font-bold text-white">Quick Links</h2>
+                <br>
+                <h1 class="text-2xl font-medium text-slate-300">Know Us More</h1>
+                  <h1 class="text-2xl font-medium text-slate-300">Visit Store</h1>
+                    <h1 class="text-2xl font-medium text-slate-300">Let’s Connect</h1>
+                      <h1 class="text-2xl font-medium text-slate-300">Locate Stores</h1>
+
+                        <div class="flex justify-evenly items-center w-[20vw] mt-10 ">
+                          <img class="w-[128.9px] h-[37.58]" src="Assets/play-store.png" alt="img6">
+                          <img class="w-[128.9px] h-[37.58]" src="Assets/app-store.png" alt="img7">
+                        </div>
+    </div>
+  </div>
+  
+  <div class="w-[100vw] h-[15vh] flex justify-center items-center bg-black mt-[1px]">
+    <h1 class="text-2xl font-medium text-slate-300">Copyright © 2024 | Organic Store</h1>
+  </div>
+
+
+  <script src="item.js" defer></script>
+  <script src="juice.js" defer></script>
+  <script src="whole.js"></script>
+
+</body>
+</html>
