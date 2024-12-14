@@ -17,20 +17,30 @@
             <div class="w-[20vw] h-[70vh] bg-contain " style="background-image: url(Assets/login-ogimage3.jpg);">
             </div>
             <div class="w-[35vw] h-[70vh]">
-                <input id="regusername" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 " type="text"
+
+
+              <form method="post" action="/register.html">
+                <input name="name" id="regusername" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 " type="text"
                     placeholder="Enter Name...">
-                <input id="regpassword" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 mt-10"
+
+                <input name="password" id="regpassword" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 mt-10"
                     type="password" placeholder="Enter Password...">
+
                 <input id="regconfirmpassword" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 mt-10"
                     type="password" placeholder="Enter Confirm Password...">
-                    <input id="email" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 mt-10"
+
+                    <input name="email" id="email" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 mt-10"
                     type="email" placeholder="Enter Email...">
-                    <input id="mobile" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 mt-10"
+                    
+                    <input name="phone" id="mobile" class="w-[25vw] h-[6vh] border-2 border-oliveGreen pl-5 ml-20 mt-10"
                     type="tel" placeholder="Enter Mobile no...">
                 <br>
                 <button id="reg_regbtn"
                     class="w-[25vw] h-[8vh] flex justify-center items-center text-white bg-oliveGreen rounded-[10px] ml-20 mt-10 hover:bg-normgreen text-xl font-semibold"
                     type="submit">Register</button>
+                  </form>
+
+
 
                     <div class="w-[25vw] h-[6vh] flex justify-evenly items-center pl-5 ml-20 mt-10">
                           <img src="Assets/icons8-google.svg" alt="google">
