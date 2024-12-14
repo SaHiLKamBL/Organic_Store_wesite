@@ -1,10 +1,42 @@
 // index.js
 const express = require('express');
 const path=require('path')
+const mongoose=require('mongoose')
+const bodyparser=require('body-parser')
 const app = express();
-const PORT = 3001;
+const PORT = 3000;
 
-app.use(express.static('public'));
+app.use(express.static('public'))
+app.use(bodyparser.urlencoded({extended:true}))
+app.use(express.json());
+
+mongoose.connect('mongodb://localhost:27017/Storedata')
+   .then(()=>console.log("MongoDB Connected Successfully"))
+   .catch(err=>console.log(err));
+
+   const userschema={
+    name: String,        // Add this
+  password: String, 
+    email:String,
+    phone:String
+   }
+
+   const user=mongoose.model("user",userschema)
+
+   app.post('/register.html',(req,res)=>{
+    console.log(req.body);
+      let newnote=new user({
+        name:req.body.name,
+        password:req.body.password,
+        email:req.body.email,
+        phone:req.body.phone
+      })
+
+      newnote.save();
+      res.redirect("/login.html")
+   })
+
+
 
 app.get('/home.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'views/home.html'));
