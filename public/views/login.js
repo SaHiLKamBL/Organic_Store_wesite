@@ -15,8 +15,6 @@ loginbtn.addEventListener('click',()=>{
 
         if (username.value === JSON.parse(storeusername) && password.value === JSON.parse(storepassword)) {
             alert("Login Successful");
-            username.value = "";
-            password.value = "";
      window.location.href="home.html"
         }
         
