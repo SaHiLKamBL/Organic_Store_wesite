@@ -4,7 +4,7 @@ const path=require('path')
 const mongoose=require('mongoose')
 const bodyparser=require('body-parser')
 const app = express();
-const PORT = 3000;
+const PORT = 18012;
 
 app.use(express.static('public'))
 app.use(bodyparser.urlencoded({extended:true}))
