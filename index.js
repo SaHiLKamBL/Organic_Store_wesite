@@ -10,7 +10,7 @@ app.use(express.static('public'))
 app.use(bodyparser.urlencoded({extended:true}))
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/Storedata')
+mongoose.connect('mongodb+srv://sahil1205:Sahil%402828@sahilcluster1.mubaz.mongodb.net/logindata')
    .then(()=>console.log("MongoDB Connected Successfully"))
    .catch(err=>console.log(err));
 
@@ -24,7 +24,6 @@ mongoose.connect('mongodb://localhost:27017/Storedata')
    const user=mongoose.model("user",userschema)
 
    app.post('/register.html',(req,res)=>{
-    console.log(req.body);
       let newnote=new user({
         name:req.body.name,
         password:req.body.password,
