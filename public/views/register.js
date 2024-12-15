@@ -23,10 +23,5 @@ regbtn.addEventListener('click', () => {
 
     alert('Registration Successful');
     
-    regpassword.value=""
-    regconfirmpassword.value=""
-     regusername.value=""
-
-     
     window.location.href="login.html"
 });
