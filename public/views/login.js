@@ -17,8 +17,13 @@ loginbtn.addEventListener('click',()=>{
             alert("Login Successful");
      window.location.href="home.html"
         }
+        else{
+            alert("Invalid Credentials");
+        }
         
     }
+  username.value=""
+  password.value=""
     
 })
 
