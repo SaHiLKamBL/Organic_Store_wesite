@@ -11,7 +11,7 @@ regbtn.addEventListener('click', () => {
         return; 
     }
 
-    if (regusername.value === "" || regpassword.value === "" || regconfirmpassword.value === "") {
+    if (regusername.value === "" || regpassword.value === "" || regconfirmpassword.value === "" || email.value === "" || mobile.value === "") {
         alert("Fill all fields");
         return;
     }
