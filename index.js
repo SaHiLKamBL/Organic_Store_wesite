@@ -15,10 +15,24 @@ mongoose.connect('mongodb+srv://sahil1205:Sahil%402828@sahilcluster1.mubaz.mongo
    .catch(err=>console.log(err));
 
    const userschema={
-    name: String,        // Add this
-  password: String, 
-    email:String,
-    phone:String
+    name: {
+        type: String,
+         default:"invalid error"
+      }, 
+      password: {
+        type: String,
+         default:"invalid error"
+      },       // Add this
+      email: {
+        type: String,
+        default:"invalid error"
+      }, 
+      phone: {
+        type: String,
+        default:"invalid error"
+      },
+    
+   
    }
 
    const user=mongoose.model("user",userschema)
@@ -32,7 +46,7 @@ mongoose.connect('mongodb+srv://sahil1205:Sahil%402828@sahilcluster1.mubaz.mongo
       })
 
       newnote.save();
-      res.redirect("/login.html")
+      res.redirect("/register.html")
    })
 
 
